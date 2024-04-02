@@ -76,8 +76,8 @@ http.createServer((req,res)=>{
     else if(req.method == "POST"){
 
         let userData = '';
-        req.on('data', (chunk) => {
-            userData += chunk;
+        req.on('data', (data) => {
+            userData += data;
         });
     
         

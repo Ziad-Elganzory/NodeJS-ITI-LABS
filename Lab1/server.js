@@ -75,4 +75,6 @@ http.
         }
         res.end();
     })
-    .listen(7000);
+    .listen(7000,()=>{
+      console.log('http://localhost:7000');
+    });

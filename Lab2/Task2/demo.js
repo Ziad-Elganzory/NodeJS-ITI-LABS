@@ -10,4 +10,5 @@ console.log(ticket.displayInfo());
 // ticket.updateDepartureAirport('CDE');
 // ticket.updateArrivalAirport('FGI');
 // ticket.updateTravelingDate(Date());
+console.log(ticket.displayInfo());
 
